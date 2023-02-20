@@ -1,0 +1,116 @@
+body {
+    /* font-family: "roboto", sans-serif; */
+  }
+  thead{
+    width: 100vw;
+  }
+ 
+  .page-title {
+    /* font-family: "roboto";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    margin-bottom: 15px; */
+  }
+.page-text span{
+float: right;
+width: 200px;
+}
+.icon ul li{
+    list-style: none;
+    display: inline-block;
+}
+ .icon{
+    position: relative;
+    margin-top: 60px;
+    padding-left:5px;
+} 
+
+.page-text span h3{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.page-text span p{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.page-text span h5{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.page-text p{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+  .page-subtitle {
+
+  }
+  .page-subtitle {
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #1b1b1b;
+    margin-bottom: 15px;
+  }
+  /* .card-info__counter {
+    max-width: 50px;
+    text-align: center;
+    margin-left: 5px;
+  } */
+  .form__row {
+    width: 100%;
+    padding-right: 10px;
+}
+
+.form__row:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.form__row-text {
+            padding: 0 5px;
+}
+
+.form__row.is-sm {
+    max-width: 200px;
+}
+
+.form__row.is-md {
+    max-width: 300px;
+}
+
+.form__row.is-lg {
+    max-width: 400px;
+}
+#dv1{
+
+}
+.page-title-s{
+
+}
+.map__description{
+
+}
+.map__block{}
+.map__title{}
+.map__body{}  
+.page-text{}
+.is-color{}
+
+.button--black {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000
+  }
+
+/* .button--black:hover {
+    background-color: #333333;
+    border-color: #333333;
+} */

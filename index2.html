@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cssmobile/style.css">
+  <link rel="stylesheet" href="cssmobile/style2.css">
+  <script src="script.js"></script>
+  <script src="cssmobile/script.js"></script>
+
+</head>
+
+<body>
+<!--начало/ шапка/header -->
+  <div class="container">
+    <div class="item item_1">
+      <ul id="cool-menu">
+        <li><a href="/">Арматура.РУ</a></li>
+        <li><a href='<? print $global_gorodnameurl?>/информация/'>Информация</a>
+      </ul>
+
+      <div id="page-wrapper">
+        <div class="header">
+          <h1>Каталог шин</h1>
+          <a id="cool-menu-toggle" href="#">Меню</a>
+        </div>
+      </div>
+    </div>
+<!--конец / шапка/header -->
+
+<!-- фильтр -->
+    <div class="item item_2">
+      <div class="content">
+        <section>Шины в москве</section>
+        <form><select>
+            <option>Барум
+          </select></form>
+      </div>
+    </div>
+<!-- конец /фильтр -->
+
+<!-- началщ /хлебные крошки -->
+    <div class="bread">
+        <ul>
+          <li><span><a href="/moscow/">Главная</a></span></li>
+          <li>...<span class="icon2"><img src="img/cube.png" alt="картинка" class="img7" width="10">...
+
+              <div class="menu">
+                <a href="/moscow/tyres/legk/">/ Шины легковые /</a>
+                <a href="/moscow/tyres/legk/Bfgoodrich/9/">/ Bfgoodrich /</a>
+              </div>
+
+          <li><span>G-Grip</span></li>
+          </span>
+        </ul>
+      </div>
+
+<!-- конец/хлебные крошки -->
+
+<!-- начало/ карточка товара -->
+    <div class="container_1">
+      <h1>
+        <div class="page-title">Шины Bfgoodrich G-Grip в Москве</div>
+      </h1>
+      <div class="card__left">
+        <div class="card-info">
+          <ul>
+            <li>КОД ТОВАРА - <b class="page-title is-color"><span>85464</span></b>&nbsp;&nbsp;<button type="button"
+                name="button" class="button button--red"
+                onClick="javascript: addkorzina(2, 85464, 4, 359); loadModal('/korzina/looser.phtml?idgorod=236&idgorodprice=236&gorodname=moscow');showModal();">Хочу
+                дешевле</button></li>
+            <li>Цена шины - <b class="page-title is-color"><span>4890</span> рублей за одну шину</b></li>
+            <li>Время поставки на выдачу - <b class="page-title is-color"><span>
+                  6 дн.</span></b></li>
+            <li>Остаток на складе - <b class="page-title is-color"><span>20 шт</span></b></li>
+            <li>
+              <label for>Заказ:</label>
+              <input type="text" name="count2_85464" class="form__input" value="">&nbsp;
+              <button type="button" class="button button--black">Купить</button>&nbsp;&nbsp;
+              <button type="button" class="button button--black">Купить в 1 клик</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card__image">
+        <img src="https://r17.ru/image1.phtml?w1=200&imgfile=catalog1_1/images/g-grip.jpg" alt="Шина Bfgoodrich G-Grip"
+          title="Шина Bfgoodrich G-Grip">
+      </div>
+
+      <ul>
+        <li>
+          <span>Модель шины</span>
+          <span>G-Grip</span>
+        </li>
+        <li class="card__item">
+          <span>Тип шины</span>
+          <span>легковые автомобили</span>
+        </li>
+        <li class="card__item">
+          <span>Сезон</span>
+          <span>Летняя</span>
+        </li>
+        <li class="card__item">
+          <span>Шипованная</span>
+          <span>нет</span>
+        </li>
+      </ul>
+    </div>
+    <!-- конец карточка товара -->
+
+    <!-- начало/текст в рамке -->
+        <ul>
+          <li>Узнайте подробнее о наличии и сроках поставки товара, 
+            <b>щелкнув на код товара</b></li>
+        </ul>
+    </div>
+    <!-- конец/текст в рамке -->
+  </div>
+<!-- начало / информационный контент -->
+  <form>
+    <!-- </div> -->
+    <div class="container">
+      <div class="tabs">
+        <div class="tabs__top">
+          <!-- <div class="tabs__input"> -->
+          <details>
+            <!-- <input name="tabsRadio" id="tab-1" checked="" type="radio" onclick="showblock(1);"> -->
+            <summary style="">
+              <label for="tab-1" class="tabs__tab page-text">Размеры ЕСТЬ в наличии</label>
+            </summary>
+            <!-- </div> -->
+            <div class="table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Размер</th>
+                    <th>ИНС</th>
+                    <th>Код товара</th>
+                    <th>Время ожидания</th>
+                    <th>Остаток</th>
+                    <th>Цена</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="is-left"> 185/65R15 </td>
+                    <td> 88H </td>
+                    <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/85464/"> Код товара - 85464
+                      </a></td>
+                    <td> 6 дн. </td>
+                    <td> 20 шт </td>
+                    <td class="is-bold"> 4890 р. </td>
+                  </tr>
+                  <tr>
+                    <td class="is-left"> 195/65R15 </td>
+                    <td> 91H </td>
+                    <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44333/"> Код товара - 44333
+                      </a></td>
+                    <td> 1-2 дня </td>
+                    <td> Много </td>
+                    <td class="is-bold"> 4940 р. </td>
+                  </tr>
+                  <tr>
+                    <td class="is-left"> 245/40R18 </td>
+                    <td> 97Y XL </td>
+                    <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36822/"> Код товара - 36822
+                      </a></td>
+                    <td> 12 дн. </td>
+                    <td> 4 шт </td>
+                    <td class="is-bold"> 9565 р. </td>
+                  </tr>
+                </tbody>
+              </table>
+          </details>
+          <details>
+            <summary style="">
+              <!-- <div class="tabs__input"> -->
+              <!-- <input name="tabsRadio" id="tab-4" type="radio" onclick="showblock(4);"> -->
+              <label for="tab-4" class="tabs__tab page-text">!!Старые годы выпуска - цена ниже!!</label>
+              <!-- </div> -->
+            </summary>
+            <thead>
+              <tr>
+                <th>Размер</th>
+                <th>ИНС</th>
+                <th>Код товара</th>
+                <th>Время ожидания</th>
+                <th>Остаток</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+          </details>
+          <details>
+            <!-- <div class="tabs__input"> -->
+            <!-- <input name="tabsRadio" id="tab-2" type="radio" onclick="showblock(2);"> -->
+            <summary style="">
+              <label for="tab-2" class="tabs__tab page-text">Размеры НЕТ в наличии</label>
+              <!-- </div> -->
+            </summary>
+            <div class="tabs__body" id="tab2">
+              <div class="table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Размер ИНС</th>
+                      <th>Код товара</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="is-left"> 165/65R14 79T </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36804/"> Код товара -
+                          36804 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 165/70R14 81T </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29801/"> Код товара -
+                          29801 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 175/65R14 82T </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29804/"> Код товара -
+                          29804 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 175/65R14 86T XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36805/"> Код товара -
+                          36805 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 175/70R14 84T </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36806/"> Код товара -
+                          36806 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 185/55R14 80H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44347/"> Код товара -
+                          44347 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 185/60R14 82T </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29811/"> Код товара -
+                          29811 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 185/60R14 82H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/66610/"> Код товара -
+                          66610 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 185/65R14 86T </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29799/"> Код товара -
+                          29799 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 185/65R14 86H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/85463/"> Код товара -
+                          85463 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 185/70R14 88T </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29808/"> Код товара -
+                          29808 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 175/65R15 84T </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29810/"> Код товара -
+                          29810 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 185/55R15 82H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29798/"> Код товара -
+                          29798 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 185/60R15 84H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29802/"> Код товара -
+                          29802 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 185/60R15 88H XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36807/"> Код товара -
+                          36807 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 185/65R15 88T </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29807/"> Код товара -
+                          29807 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 195/45R15 78V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44365/"> Код товара -
+                          44365 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 195/50R15 82H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36808/"> Код товара -
+                          36808 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 195/55R15 85H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36809/"> Код товара -
+                          36809 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 195/60R15 88H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29797/"> Код товара -
+                          29797 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 195/65R15 91T </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/34771/"> Код товара -
+                          34771 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 195/65R15 95T XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/47948/"> Код товара -
+                          47948 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/50R15 86V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44357/"> Код товара -
+                          44357 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/60R15 94H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29812/"> Код товара -
+                          29812 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/60R15 91H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36810/"> Код товара -
+                          36810 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/65R15 94H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/34948/"> Код товара -
+                          34948 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 185/55R16 87V XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/66612/"> Код товара -
+                          66612 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 195/45R16 84V XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36811/"> Код товара -
+                          36811 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 195/50R16 88V XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44349/"> Код товара -
+                          44349 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 195/55R16 87V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29800/"> Код товара -
+                          29800 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 195/55R16 85H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29803/"> Код товара -
+                          29803 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 195/60R16 89H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/54332/"> Код товара -
+                          54332 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/45R16 83V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44338/"> Код товара -
+                          44338 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/50R16 87V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44356/"> Код товара -
+                          44356 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/55R16 91H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/34796/"> Код товара -
+                          34796 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/55R16 91W </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44352/"> Код товара -
+                          44352 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/55R16 94V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/47945/"> Код товара -
+                          47945 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/60R16 92H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29809/"> Код товара -
+                          29809 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/60R16 92V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44331/"> Код товара -
+                          44331 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/70R16 97H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/54331/"> Код товара -
+                          54331 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/40R16 86W XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44350/"> Код товара -
+                          44350 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/45R16 90V XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/66611/"> Код товара -
+                          66611 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/55R16 93H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29806/"> Код товара -
+                          29806 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/55R16 97H XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/34800/"> Код товара -
+                          34800 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/60R16 95H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29805/"> Код товара -
+                          29805 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/60R16 95V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/35052/"> Код товара -
+                          35052 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/60R16 99V XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/40435/"> Код товара -
+                          40435 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/65R16 98H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/47947/"> Код товара -
+                          47947 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 225/50R16 92V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36812/"> Код товара -
+                          36812 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 225/55R16 95V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29813/"> Код товара -
+                          29813 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/40R17 84W XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44351/"> Код товара -
+                          44351 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/45R17 88W XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44354/"> Код товара -
+                          44354 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/50R17 93Y XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36813/"> Код товара -
+                          36813 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 205/55R17 95V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/52157/"> Код товара -
+                          52157 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/40R17 87W XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44353/"> Код товара -
+                          44353 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/45R17 91W XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44359/"> Код товара -
+                          44359 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/50R17 95W XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36814/"> Код товара -
+                          36814 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/55R17 94W </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36815/"> Код товара -
+                          36815 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/60R17 96H </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/47946/"> Код товара -
+                          47946 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/65R17 99V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/54329/"> Код товара -
+                          54329 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 225/45R17 91V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29796/"> Код товара -
+                          29796 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 225/45R17 94V XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/34802/"> Код товара -
+                          34802 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 225/50R17 94V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36816/"> Код товара -
+                          36816 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 225/50R17 98V XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44363/"> Код товара -
+                          44363 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 225/50R17 98W XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44364/"> Код товара -
+                          44364 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 225/55R17 97W </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/29814/"> Код товара -
+                          29814 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 225/55R17 101W XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/34803/"> Код товара -
+                          34803 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 225/60R17 99V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/54330/"> Код товара -
+                          54330 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 235/45R17 97Y XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36817/"> Код товара -
+                          36817 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 235/55R17 103W </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/52159/"> Код товара -
+                          52159 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 245/40R17 91Y </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36818/"> Код товара -
+                          36818 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 245/45R17 95Y </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36819/"> Код товара -
+                          36819 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/55R18 99V </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/52158/"> Код товара -
+                          52158 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 225/40R18 92Y XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36820/"> Код товара -
+                          36820 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 225/45R18 95W XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44361/"> Код товара -
+                          44361 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 235/40R18 95Y XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/36821/"> Код товара -
+                          36821 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 235/45R18 98Y XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44355/"> Код товара -
+                          44355 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 235/50R18 101W XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/54326/"> Код товара -
+                          54326 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 245/45R18 100W XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/44346/"> Код товара -
+                          44346 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 255/35R18 94Y XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/52287/"> Код товара -
+                          52287 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 215/35R19 85Y XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/46390/"> Код товара -
+                          46390 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 235/35R19 91Y XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/66613/"> Код товара -
+                          66613 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 235/40R19 96Y XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/54327/"> Код товара -
+                          54327 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 245/40R19 98Y XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/54328/"> Код товара -
+                          54328 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 255/35R19 96Y XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/47949/"> Код товара -
+                          47949 </a></td>
+                    </tr>
+                    <tr>
+                      <td class="is-left"> 255/40R19 100Y XL </td>
+                      <td class="is-link"><a href="/moscow/tyres/legk/Bfgoodrich/9/G-Grip/4174/52288/"> Код товара -
+                          52288 </a></td>
+                    </tr>
+                  </tbody>
+                </table>
+          </details>
+        </div>
+        <details>
+          <summary style="">
+            <!-- <div class="tabs__input"> -->
+            <!-- <input name="tabsRadio" id="tab-3" type="radio" onclick="showblock(3);"> -->
+            <label for="tab-3" class="tabs__tab page-text">Отзывы, Видео, Комментарии</label>
+            <!-- </div> -->
+          </summary>
+          <div class="tabs__content">
+            <div class="tabs__body isActive" id="tab1">
+            </div>
+
+<!-- конец / информационный контент -->
+
+
+            <div class="container">
+              <div class="page-text">
+                <p>Для покупки летней шины Bfgoodrich G-Grip - найдите нужный вам размер, добавьте его в корзину,
+                  укажите свои контактные данные и наш менеджер свяжется с вами в ближайшее время.
+                  Информацию по доставке шины БФ Гудрич г-грип по г. Москва можно посмотреть в разделе <a
+                    href="https://r17.ru/moscow/dostavka/">доставка</a>.</p>
+
+                <p>Для наших клиентов действует услуга <a href="https://r17.ru/moscow/shinomontazh/">Шиномонтаж в
+                    Москве.</a>.
+                <p>На все товары и услуги действуют <a href="https://r17.ru/moscow/warranty/">гарантии</a>.</p>
+              </div>
+            </div>
+
+          </div>
+
+
+      </div>
+</body>
+
+</html>

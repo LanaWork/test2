@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.indent {
+    margin: 0;
+    padding: 1em;
+}
+
+.top {
+
+    width: 100vw;
+    background-color: #fab71e;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+
+/* .top img{
+    position: absolute;
+padding-left: 10px;
+} */
+
+
+.top ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.item {
+    padding: 10px;
+    float: left;
+}
+
+/* .container {
+     justify-content: center; 
+        margin: 0 auto;
+
+} */
+.container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.item_1 {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+}
+.bread ul li {
+    list-style: none;
+    display: inline-block;
+}
+.bread a{
+    color: #000;;
+    text-decoration:none
+}
+.item_2 {
+    width: 100vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1em;
+}
+
+.item_2 h1 {
+    padding-bottom: 1em;
+}
+.state--tc h3{
+padding: 1em 0 0.5em;
+/* line-height:0.3em; */
+}
+.state--tc p{
+/* padding: 1em 0 1em; */
+line-height:1.4em;
+}
+
+.item_3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 2em 0 0 0;
+}
+
+
+.brand {
+    text-align: center;
+    padding-left: 1em;
+}
+
+.brand a {
+    text-decoration: none;
+    color: black;
+}
+
+.bread{
+    padding-left: 1em;
+}
+
+/* Содержимое выпадающего списка (скрыто по умолчанию) */
+.menu {
+    display: none;
+    position: absolute;
+    min-width: 60px;
+    z-index: 1;
+    margin-left: 0em;
+    top: 12em;
+    padding: 1em 0 0 0.5em;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+/* Ссылки внутри выпадающего списка */
+.menu a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.icon2:hover .menu {
+    display: block;
+}
+
+/* Показывать выпадающее меню при наведении курсора мыши */
+.icon2:hover .menu {
+    display: block;
+}
+
+.card__list span {
+    display: table-cell;
+    width: 50%;
+    padding-bottom: 10px
+}
+
+.card__left {
+    float: right;
+    width: 190px;
+    font-family: "roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #1b1b1b;
+    /* padding-top: 0; */
+    /* padding: 0 10px; */
+    padding-right: 10px;
+}
+
+.card__block {
+    float: left;
+    /* width: 45%; */
+}
+
+.card__list {
+    float: left;
+}
+
+.card__bottom:before,
+.card__bottom:after {
+    content: " ";
+    display: table;
+}
+
+.card__bottom:after {
+    clear: both;
+}
+
+.card-info {
+    background-color: #f6f2de;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-family: "roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #1b1b1b;
+    border: 2px solid #EE9600;
+}
+
+.form__input {
+    width: 15px;
+}
+
+.card-info li {
+    margin-bottom: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.button {
+    background: #000;
+    color: #fff;
+}
+
+.button--red {
+    color: #ffffff;
+    background-color: Red;
+    /* border-color: #EE9600; */
+}
+
+.button--red:hover {
+    background-color: Red;
+    /* border-color: #fab71e; */
+}
+
+.button--black {
+    color: #ffffff;
+    background-color: #000;
+    /* border-color: #EE9600; */
+}
+
+.button--black:hover {
+    background-color: #000;
+}

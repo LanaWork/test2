@@ -1,0 +1,58 @@
+<?
+
+       $array01 = [];
+       $array01["REQUEST_URI"]=$_SERVER["REQUEST_URI"];
+       $array01["HTTP_HOST"]="r17.ru";
+       $ch = curl_init();
+       curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+       curl_setopt($ch, CURLOPT_POST, 1);
+	   curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($array01));
+       curl_setopt($ch, CURLOPT_URL, "https://r17.ru/export/mob.phtml");
+       $str1 = curl_exec($ch);
+       curl_close($ch);
+	   $GLOB_SITE = json_decode($str1);
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cssmobile/style.css">
+    <link rel="stylesheet" href="cssmobile/style2.css">
+    <link rel="stylesheet" href="style_filtr.css">
+  <script src="script.js"></script>
+    <script src="cssmobile/script.js"></script>
+
+</head>
+
+<body>
+
+ <!-- шапка сайта -->
+<? include "top.phtml"; ?>
+
+   <!--конец/ шапка сайта -->
+
+  <!-- меню -->
+
+  <? include "menu.phtml"; ?>
+
+ <!-- конец /меню -->
+
+ <!-- началщ /хлебные крошки -->
+
+ <? include "bread.phtml"; ?>
+
+<!-- конец/хлебные крошки -->
+
+<!-- контент фильтр -->
+<? include "content.phtml"; ?>
+
+</body>
+
+</html>
